@@ -3,6 +3,7 @@
 }
 
 h1 {
-  font-family: "Open Sans";
-  font-weight: normal;
+  font-family: openSansBold;
+  font-size: 24px;
+  color: #003865;
 }

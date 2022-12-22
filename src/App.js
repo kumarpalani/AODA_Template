@@ -5,7 +5,11 @@ export default function App() {
   return (
     <div className="App bg_gradiant ">
       <div className="wrapper">
-        <Header />
+        <div> WWW</div>
+        <Header
+          title="EXPORTING FOR GROWTH"
+          info="Click the image below to see how exporting increases opportunity."
+        />
         <Section />
       </div>
     </div>

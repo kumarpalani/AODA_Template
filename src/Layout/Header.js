@@ -1,10 +1,10 @@
 import React from "react";
-import "./Header.css";
 
-const Header = () => (
+import "./Header.css";
+const Header = (props) => (
   <div>
-    <h1>Hello Palani</h1>
-    <h2>Start editing to see some magic happen!</h2>
+    <h1>{props.title}</h1>
+    <h2>{props.info}</h2>
   </div>
 );
 
