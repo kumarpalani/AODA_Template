@@ -8,6 +8,7 @@ export default function App() {
         <Header
           title="EXPORTING FOR GROWTH"
           info="Click the image below to see how exporting increases opportunity."
+          title2="BENEFIT #1: INCREASED JOBS AND INCOME"
         />
         <Section />
       </div>

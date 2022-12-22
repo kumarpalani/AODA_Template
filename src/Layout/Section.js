@@ -1,13 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
+import botImg from "../Images/step1.png";
+import topImg from "../Images/step2.png";
+import "./Section.css";
+const Imgbox = (props) => <img src={props.imgname} alt={props.alttxt} />;
+const Section = () => {
+  const [textDes, setTextDes] = useState(
+    "Without exporting: limited number of customers."
+  );
 
-const Section = () => (
-  <div>
-    <img
-      src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
-      alt="With_export"
-    />
-    <div>Details of Cat.. </div>
-  </div>
-);
+  const imageLoad = () => {};
+  const imagechange = (e) => {
+    setTextDes(
+      "With exporting, there are more potential customers and increased jobs and income."
+    );
+  };
+  return (
+    <div className="sectionDiv">
+      <div className="mapArea" onClick={imagechange}>
+        <Imgbox imgname={botImg} alttxt="without_export_image" />
+        <Imgbox imgname={topImg} alttxt="without_export_image" />
+        <div className="detailTxt">{textDes} </div>
+      </div>
+    </div>
+  );
+};
 
 export default Section;

@@ -2,8 +2,27 @@
   background-color: #dfdfdf;
 }
 
+.headerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1 {
   font-family: openSansBold;
   font-size: 24px;
   color: #003865;
+}
+h2 {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0px;
+  font-weight: normal;
+  color: #00a9e0;
+  font-family: "openSansBold";
+}
+
+header p {
+  font-size: 14px;
+  font-family: openSans;
 }

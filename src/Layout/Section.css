@@ -1,0 +1,42 @@
+.sectionDiv {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.mapArea {
+  overflow: hidden;
+  width: 600px;
+  height: 468px;
+  background-color: #71c5e8;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  position: absolute;
+}
+
+.mapArea img {
+  position: absolute;
+  top: -80px;
+  left: -90px;
+}
+.detailTxt {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 10px;
+  background-color: #003865;
+  position: absolute;
+  width: 600px;
+  color: #fff;
+  font-family: openSansBold;
+  font-size: 18px;
+}
+
+.mapArea img:nth-child(2) {
+  display: none;
+  opacity: 0;
+  width: 100%;
+  top: 20px;
+  left: 20px;
+}
