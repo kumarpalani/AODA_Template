@@ -1,26 +1,25 @@
 @font-face {
   font-family: "openSans";
-  src: url("../fonts/opensans-regular.eot");
-  src: url("../fonts/opensans-regular.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/opensans-regular.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("../fonts/opensans-regular.woff")
+  src: url("./Fonts/opensans-regular.eot");
+  src: url("./Fonts/opensans-regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./Fonts/opensans-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./Fonts/opensans-regular.woff")
       format("woff"),
-    /* Pretty Modern Browsers */ url("../fonts/opensans-regular.ttf")
+    /* Pretty Modern Browsers */ url("./Fonts/opensans-regular.ttf")
       format("truetype"),
-    /* Safari, Android, iOS */ url("../fonts/opensans-regular.svg#svgFontName")
+    /* Safari, Android, iOS */ url("./Fonts/opensans-regular.svg#svgFontName")
       format("svg");
 }
 
 @font-face {
   font-family: "openSansBold";
-  src: url("../fonts/opensans-bold.eot");
-  src: url("../fonts/opensans-bold.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/opensans-bold.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("../fonts/opensans-bold.woff")
-      format("woff"),
-    /* Pretty Modern Browsers */ url("../fonts/opensans-bold.ttf")
+  src: url("./Fonts/opensans-bold.eot");
+  src: url("./Fonts/opensans-bold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./Fonts/opensans-bold.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./Fonts/opensans-bold.woff") format("woff"),
+    /* Pretty Modern Browsers */ url("./Fonts/opensans-bold.ttf")
       format("truetype"),
-    /* Safari, Android, iOS */ url("../fonts/opensans-bold.svg#svgFontName")
+    /* Safari, Android, iOS */ url("./Fonts/opensans-bold.svg#svgFontName")
       format("svg");
 }
 * {
