@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "openSans";
+  src: url("../fonts/opensans-regular.eot");
+  src: url("../fonts/opensans-regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/opensans-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/opensans-regular.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("../fonts/opensans-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/opensans-regular.svg#svgFontName")
+      format("svg");
+}
+
+@font-face {
+  font-family: "openSansBold";
+  src: url("../fonts/opensans-bold.eot");
+  src: url("../fonts/opensans-bold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/opensans-bold.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/opensans-bold.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("../fonts/opensans-bold.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/opensans-bold.svg#svgFontName")
+      format("svg");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "openSans";
+}
+.App {
+  text-align: center;
+  width: 640px;
+  height: 620px;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  margin-top: 5px;
+}
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.bg_gradiant {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(216, 216, 216, 1) 0%,
+    rgba(255, 255, 255, 1) 13%,
+    rgba(255, 255, 255, 1) 86%,
+    rgba(167, 167, 167, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(216, 216, 216, 1) 0%,
+    rgba(255, 255, 255, 1) 13%,
+    rgba(255, 255, 255, 1) 86%,
+    rgba(167, 167, 167, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    90deg,
+    rgba(216, 216, 216, 1) 0%,
+    rgba(255, 255, 255, 1) 13%,
+    rgba(255, 255, 255, 1) 86%,
+    rgba(167, 167, 167, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A7A7A7', endColorstr='#D8D8D8', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    90deg,
+    rgba(216, 216, 216, 1) 0%,
+    rgba(255, 255, 255, 1) 13%,
+    rgba(255, 255, 255, 1) 86%,
+    rgba(167, 167, 167, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    90deg,
+    rgba(216, 216, 216, 1) 0%,
+    rgba(255, 255, 255, 1) 13%,
+    rgba(255, 255, 255, 1) 86%,
+    rgba(167, 167, 167, 1) 100%
+  );
+}
